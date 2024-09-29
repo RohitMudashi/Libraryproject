@@ -1,0 +1,124 @@
+.landing-page .container{
+    border:none;
+    height:100vh;
+    width:100%;
+    background: url(../Images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top:0;
+}
+.landing-page .login-container{
+    border:solid 1px white;
+    height:65vh;
+    width:60vh;
+    margin:100px 150px;
+    background: rgba(255, 255, 255, 0.123);
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 3px white; */
+
+}
+.landing-page .btn-container{
+    height:6vh;
+    width:35vh;
+    border:solid 1px white;
+    margin:10px auto;
+    border-radius: 50px;
+    position: relative;
+}
+.landing-page .btn-container button{
+    height:100%;
+    width:50%;
+    transition: all 2s; 
+    /* border-radius: 50px; */
+    position: absolute;
+    top:0px;
+}
+.landing-page .right-btn{
+    margin-left: 50%;
+    background: linear-gradient(#dde5e9,#0cc6ff);
+    color:black;
+    border:none;
+    border-radius:0px 50px 50px 0px;
+}
+.landing-page .left-btn{
+    margin-left: 0%;
+    background: lightgoldenrodyellow;
+    border: none;
+    border-radius:50px 0px 0px 50px;
+}
+.landing-page .btn-container .text{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100%;
+    color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landing-page .form-container{
+    border:solid 1px white;
+    height:50vh;
+    width:45vh;
+    margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(#dde5e9,#99bac4);
+    box-shadow: 5px 5px -5px blue;
+   
+}
+.landing-page .header{
+   color: #1D87A4; 
+   text-align: center;
+   font-size: 20px;
+   /* margin-top: 10px; */
+   font-style: italic;
+   font-weight: bold;
+   height:5vh;
+   text-decoration: underline;
+}
+.landing-page input, .landing-page form button{
+    display: block;
+    margin: 10px auto;
+    height:6vh;
+    border:none;
+    /* padding: 10px; */
+ 
+}
+.landing-page input{
+    width:80%;
+    background: none;
+    text-align: center;
+  
+    font-size: 16px;
+  
+}
+.landing-page form button{
+    width:40%;
+    background: #1D87A4;
+    color:antiquewhite;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+}
+.landing-page input:focus{
+    outline: none;
+}
+.landing-page input::placeholder{
+    /* padding: 10px; */
+    color:#1D87A4;
+}
+.landing-page .forget{
+    
+    text-align: center;
+    margin-top: 20px;
+}
+.landing-page .forget a{
+    color:#1D87A4;
+    font-weight: bold;
+    font-style: italic;
+}
+.landing-page hr{
+    width:70%;
+    margin:-2px auto;
+    border:solid 1px white;
+}

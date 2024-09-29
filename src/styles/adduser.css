@@ -1,0 +1,61 @@
+.userimg{
+    position: relative;
+}
+.userimg img{
+    height:90vh;
+    width:100%;
+}
+/* .cont form{
+    height:50vh;
+    width:70%;
+    border:solid 1px black;
+} */
+.cont input,.addbooks button{
+    display:block;
+    margin:10px auto;
+    height:5vh;
+}
+/* .cont{
+    position: relative;
+} */
+
+.cont input{
+    width: 50%;
+    border:none;
+    padding:5px;
+    /* background: linear-gradient(rgb(245, 63, 96),white); */
+    background: white;
+  
+}
+.cont button{
+    width:20%;
+    border:none;
+    border-radius: 10px;
+    background:teal;
+    color:antiquewhite;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    height: 6vh;
+    font-size:12px;
+}
+.cont form{
+    width:35%;
+    border:solid 1px rgba(0, 0, 0, 0);
+    margin:40px 360px;
+    height:65vh;
+    border-radius: 10px;
+    background: linear-gradient( rgba(0, 128, 128, 0),rgba(255, 255, 255, 0));
+    box-shadow: 5px 5px 5px 5px black;
+    padding: 10px;
+    position: absolute;
+    top:30px;
+}
+.cont button:hover{
+    transition: all 2s ease;
+    color:teal;
+    border:none;
+    background: antiquewhite;
+    font-weight: bold;
+    border: solid 2px teal;
+}
